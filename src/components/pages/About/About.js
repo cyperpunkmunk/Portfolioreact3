@@ -2,15 +2,29 @@ import React from "react";
 import "./about.css"
 function About() {
   return (
-    <div class = "main">
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+    <div className = "body">
+      
+      <div className = "hi">
+        <h1 className = "title">Hi, i'm Kenneth. It's a pleasure meeting you.</h1>
+        <p className = "title">
+           Freelance designer turned into a Full Stack Software Engineer. I started my journey about two years ago
+           when I would decide to educate myself on how to paint my art onto a new, more digitalized canvas.
+           <br></br>
+           After a numerous amount of "Eye Of The Tiger" montages I found myself turning what I was experimenting with into 
+           a lifestyle and one of my biggest passions. 
+        </p>
+      </div>
+      <div className = "hiTwo">
+        <p className = "title">
+          Born and raised in Houston,Texas.
+           <br></br>
+          If im not coding im either painting, 3d modeling, playing piano ,playing video games, or working out.
+        </p>
+      </div>
+      <div className = "languages">
+        <h1 className = "title">Here are some of the languages i speak.</h1>
+      </div>
+
     </div>
   );
 }

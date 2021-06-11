@@ -3,7 +3,7 @@ import "./work.css"
 function Work() {
   return (
     <div class = "main">
-      <h1 class = "" >Work</h1>
+      <h1 className = "" >Work</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
         turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.

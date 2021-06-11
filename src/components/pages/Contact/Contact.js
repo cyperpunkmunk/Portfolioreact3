@@ -1,10 +1,10 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
-
+import "./contact.css"
 
 function Contact(props) {
   return (
-    <div>
+    <div class = "main">
       <h1>Contact Page</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.

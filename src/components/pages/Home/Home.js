@@ -1,10 +1,11 @@
 import React from "react";
 import "./style.css"
 import logo from "../../../IMG_8450.png"
+import * as THREE from 'three';
 
 function Home() {
   return (
-    
+  
     <div>
       <div className = "main">
         <div className = "intro">  
@@ -27,8 +28,8 @@ function Home() {
       </div>
 
     </div>
+  
     
- 
   );
 }
 

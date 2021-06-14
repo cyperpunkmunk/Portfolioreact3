@@ -2,9 +2,9 @@ import React from "react";
 import "./work.css"
 function Work() {
   return (
-    <div class = "main">
-      <h1 className = "" >Work</h1>
-      <p>
+    <div className = "work">
+      <h1 className = "title" >Work</h1>
+      <p className = "title">
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
         turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
         Etiam nisl orci, finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum

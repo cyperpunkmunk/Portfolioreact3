@@ -13,7 +13,6 @@ import linkedin2 from "../../../linkedin2.png"
 import stack from "../../../stackoverflow.png"
 import stack2 from "../../../stackoverflow2.png"
 
-import * as THREE from 'three';
 
 function Home() {
   return (

@@ -1,5 +1,9 @@
 .work{
     height: 95vh;
     background-color: blanchedalmond;
-    padding-top: 50px;
+}
+
+.workTitle{
+    text-align: center;
+    font-size: 32px;
 }

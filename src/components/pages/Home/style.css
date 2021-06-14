@@ -34,9 +34,36 @@
 
 
 .imgLink {
-   padding-left: 5%;
-   padding-right: 5%;
-   padding-top: 1.5%;
+
+    
+
+}
+
+.box{
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
     height:50px;
     width:50px;
+}
+
+.box:hover img{
+    opacity: 0;
+}
+
+img{
+    width:100%;
+    transition: all linear 0.7s;
+}
+
+img.hover-img{
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+}
+.box:hover img.hover-img{
+    opacity: 1;
 }

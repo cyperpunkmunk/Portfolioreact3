@@ -13,8 +13,6 @@ function About() {
            After a numerous amount of "Eye Of The Tiger" montages I found myself turning what I was experimenting with into 
            a lifestyle and one of my biggest passions. 
         </p>
-      </div>
-      <div className = "hiTwo">
         <p className = "title">
           Born and raised in Houston,Texas.
            <br></br>
@@ -22,7 +20,7 @@ function About() {
         </p>
       </div>
       <div className = "languages">
-        <h1 className = "title">Here are some of the languages i speak.</h1>
+        <p className = "title">Here are some of the languages I speak.</p>
       </div>
 
     </div>

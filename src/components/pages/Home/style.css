@@ -33,11 +33,7 @@
 }
 
 
-.imgLink {
 
-    
-
-}
 
 .box{
     position: relative;
@@ -53,12 +49,12 @@
     opacity: 0;
 }
 
-img{
+.box img{
     width:100%;
     transition: all linear 0.7s;
 }
 
-img.hover-img{
+.box img.hover-img{
     position: absolute;
     top:0;
     left:0;

@@ -28,13 +28,28 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title{
+  font-family: "Work Sans", sans-serif;
+  color: rgb(80, 80, 80);
 }
 
+.intro h1{
+  font-size: 42px;
+  font-weight: 200;
+}
+
+.intro p{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.hi h1{
+  font-size: 42px;
+  font-weight: 200;
+}
+
+.hi p{
+  font-size: 18px;
+  font-weight: 400;
+}
 

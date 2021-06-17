@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css"
 import logo from "../../../IMG_8450.png"
+
 import github from "../../../github.png"
 import github2 from "../../../github2.png"
 
@@ -20,7 +21,7 @@ function Home() {
     <div>
       <div className = "main">
         <div className = "intro">  
-          <h1 className = "title" >Artist, Web Developer & Video Game Developer</h1>
+          <h1 className = "title" >Artist, Web Developer & Video Game Designer</h1>
           <p className = "title">
             I create and innovate. Everyday. Reaching unscalable heights
           </p>

@@ -1,12 +1,16 @@
-.main{
-    
-    background-color: blanchedalmond;
-}
 
 .hi{
     height:90vh;
-    background-color: bisque;
+    background-image:url("../../../creed.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    
+    margin-bottom:10px;
+  
+   
     padding-top: 50px;
+   
  
 }
 
@@ -17,6 +21,8 @@
 }
 
 .languages{
-    height: 30vh;
-    background-color: beige;
+ margin-top: 15%;
+}
+#about{
+    color: aliceblue;
 }

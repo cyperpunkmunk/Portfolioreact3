@@ -6,7 +6,7 @@
     background-size: cover;
  
     
-    margin-bottom:10px;
+   
   
    
     padding-top: 50px;
@@ -21,8 +21,28 @@
 }
 
 .languages{
- margin-top: 15%;
+    margin-top: 15%;
+   
+
+
 }
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.child {
+    display: inline-block;
+    
+    margin: 10px 0 0 2%;
+    flex-grow: 1;
+    height: 100px;
+    width: auto;
+    max-width: 100px;
+}
+
 #about{
     color: aliceblue;
 }

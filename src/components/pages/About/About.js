@@ -1,5 +1,15 @@
 import React from "react";
 import "./about.css"
+
+import ps from "../../../adobe-photoshop.png"
+import bs from "../../../bootstrap-social-logo.png"
+import js from "../../../JavaScript-logo.png"
+import jq from "../../../jquery.png"
+import mongodb from "../../../mongoDB-logo.jpg"
+import node from "../../../nodejs.jpg"
+import react from "../../../react.png"
+
+
 function About() {
   return (
     <div className = "body">
@@ -19,7 +29,18 @@ function About() {
           If im not coding im either painting, 3d modeling, playing piano, playing video games, or working out.
         </p>
       <div className = "languages">
-        <h1 className = "title" id="about">Here are some of the languages I speak.</h1>
+        <h1 className = "title" id="about">Here are some of the tools I use.</h1>
+        <div className="icons">
+          <div className="parent">
+            <img className ="child" src={ps} alt="pic"/>
+            <img className ="child" src={bs} alt="pic"/>
+            <img className ="child" src={js} alt="pic"/>
+            <img className ="child" src={jq} alt="pic"/>
+            <img className ="child" src={mongodb} alt="pic"/>
+            <img className ="child" src={node} alt="pic"/>
+            <img className ="child" src={react} alt="pic"/>
+          </div>
+        </div>
       </div>
       </div>
 

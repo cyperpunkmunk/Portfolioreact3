@@ -1,14 +1,33 @@
 
+.workTitle{
+
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(80, 80, 80);
+    font-weight: 200;
+    font-size: 42px;
+    
+
+}
+.workBody{
+    padding-top: 50px;
+    background-image: linear-gradient(
+        to bottom,
+        #f0f0f0cc,
+        #636363d0 );
+}
+
 .work{
 
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 50px;
 }
 
 .work-container{
     
-    height: 250px;
+    height: 300px;
     width: 500px;
     position:relative;
    
@@ -45,4 +64,8 @@
 
 .transition-image:hover{
     opacity: 1;
+}
+
+#stardust{
+    color: white;
 }

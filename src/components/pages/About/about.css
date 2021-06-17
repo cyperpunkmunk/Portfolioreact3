@@ -1,10 +1,15 @@
 
 .hi{
     height:90vh;
-    background-image:url("../../../creed.jpg");
+    background-image: linear-gradient(
+        to bottom,
+        #acacaccc,
+        #636363d0 ),
+    url("../../../creed.jpg");
+    
     background-repeat: no-repeat;
     background-size: cover;
- 
+    background-position: bottom;
     
    
   

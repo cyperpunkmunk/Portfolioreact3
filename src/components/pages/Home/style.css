@@ -4,6 +4,7 @@
     height: 95vh;
     background-image:url("../../../Houston.jpg");
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
 
 }
@@ -46,11 +47,13 @@
     position: relative;
     overflow: hidden;
     margin: 20px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 70px;
+    margin-right: 70px;
     
-    height:30px;
-    width:30px;
+    height:40px;
+    width:40px;
+    min-width:30px;
+    min-height:30px;
    
 }
 

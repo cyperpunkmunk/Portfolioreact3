@@ -12,7 +12,7 @@ import react from "../../../react.png"
 
 function About() {
   return (
-    <div className = "body">
+    <div className = "Aboutbody">
       
       <div className = "hi">
         <h1 className = "title" id="abouth1">Hi, i'm Kenneth. It's a pleasure meeting you.</h1>

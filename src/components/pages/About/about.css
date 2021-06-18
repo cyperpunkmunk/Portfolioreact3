@@ -1,6 +1,5 @@
 
-.hi{
-    height:90vh;
+.Aboutbody{
     background-image: linear-gradient(
         to bottom,
         #acacaccc,
@@ -10,8 +9,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    
-   
+    padding-bottom: 20px;
+}
+.hi{
+
   
    
     padding-top: 50px;
@@ -66,6 +67,19 @@
 @media (max-width: 600px) {
    
     
+    .Aboutbody{
+        background-image: linear-gradient(
+            to bottom,
+            #acacaccc,
+            #636363d0 ),
+        url("../../../creed.jpg");
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        padding-bottom: 20px;
+    }
+    
     #abouth1{
         color: rgb(0, 106, 138);
         font-size: 30px;
@@ -86,7 +100,7 @@
     }
     .hi{
         padding-top: 30px;
-        height: 95vh;
+        
     }
 
     .hi p {

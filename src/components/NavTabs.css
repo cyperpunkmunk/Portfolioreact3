@@ -23,3 +23,15 @@
     color:rgba(21, 255, 255, 0.788)
     
 }
+@media (max-width: 600px) {
+    .nav{
+        text-align: center;
+        padding: 0;
+    }
+    .nav li a{
+        
+        padding: 0;
+        
+    }
+  
+}

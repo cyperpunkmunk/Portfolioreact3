@@ -41,7 +41,7 @@
 .child {
     display: inline-block;
     
-    margin: 10px 0 0 2%;
+    margin: 10px 2% 0 2%;
     flex-grow: 1;
     height: 100px;
     width: auto;
@@ -50,4 +50,61 @@
 
 #about{
     color: aliceblue;
+    
+}
+
+#abouth1{
+    color: rgb(0, 106, 138);
+    
+}
+#abouth12{
+    color: rgba(16, 199, 255, 0.919);
+ 
+    
+}
+
+@media (max-width: 600px) {
+   
+    
+    #abouth1{
+        color: rgb(0, 106, 138);
+        font-size: 30px;
+        padding-bottom: 30px;
+        
+    }
+
+    #abouth12{
+        color: rgba(16, 199, 255, 0.919);
+        font-size: 27px;
+        
+    }
+
+    #about{
+    
+        font-size:15px;
+        line-height: 20px;
+    }
+    .hi{
+        padding-top: 30px;
+        height: 95vh;
+    }
+
+    .hi p {
+        padding-left:20px ;
+        padding-right:20px ;
+        padding-bottom:20px ;
+    }
+
+    .child {
+        display: inline-block;
+        
+        margin: 0px 3% 4% 3%;
+        flex-grow: 0;
+        height: 45px;
+        width: auto;
+        max-width: 100px;
+    }
+    
+    
+
 }

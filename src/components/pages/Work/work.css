@@ -13,20 +13,20 @@
     font-size: 52px;
 }
 #gman1{
-    font-size: 33px;
+    font-size: 42px;
 }
 #gman2{
-    font-size: 33px;
+    font-size: 42px;
 }
 #gman1:hover{
-    font-size: 34px;
+    font-size: 45px;
     text-shadow: 0 1px 10px rgba(255, 60, 60, 0.919); 
     border-radius: 4px;
     transition: all 0.4s ease-in-out;
     color:rgba(255, 94, 94, 0.788)
 }
 #gman2:hover{
-    font-size: 34px;
+    font-size: 45px;
     text-shadow: 0 1px 10px rgba(255, 44, 244, 0.919); 
     border-radius: 4px;
     transition: all 0.4s ease-in-out;
@@ -37,7 +37,7 @@
     background-image: linear-gradient(
         to bottom,
         #f0f0f0cc,
-        #636363d0 );
+        #00c6f8d0 );
 }
 
 .pDiv{
@@ -116,4 +116,45 @@
     border-radius: 4px;
     transition: all 0.4s ease-in-out;
     color:rgba(255, 255, 255, 0.788)
+}
+
+@media (max-width: 600px) {
+    
+    .work{
+
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .work-container{
+    
+        height: auto;
+        width: 100%;
+        position:relative;
+        border-radius:25px;
+    
+    }
+
+    #offContain{
+        
+        flex-direction: column;
+    }
+
+    .pDiv{
+        width: 100%;
+        
+    }
+    .transition-image p{
+        text-align: center;
+        font-size: 12px;
+    }
+    #gman1{
+        font-size: 24px;
+    }
+    #gman2{
+        font-size: 24px;
+    }
+    
+
+ 
 }

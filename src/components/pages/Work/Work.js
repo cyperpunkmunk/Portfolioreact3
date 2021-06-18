@@ -26,7 +26,7 @@ function Work() {
         </div>
       </div>
 
-      <div className = "work">
+      <div className = "work" id="offContain">
         <div className="pDiv">
           <a href  = "https://stardust-2001.herokuapp.com/" id="workGit">
             <p className = "workTitle" id="gman2">Stardust</p>

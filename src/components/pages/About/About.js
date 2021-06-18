@@ -15,7 +15,7 @@ function About() {
     <div className = "body">
       
       <div className = "hi">
-        <h1 className = "title" id="about">Hi, i'm Kenneth. It's a pleasure meeting you.</h1>
+        <h1 className = "title" id="abouth1">Hi, i'm Kenneth. It's a pleasure meeting you.</h1>
         <p className = "title" id="about">
            Freelance designer turned into a Full Stack Software Engineer. I started my journey about two years ago
            when I would decide to educate myself on how to paint my art onto a new, more digitalized canvas.
@@ -29,7 +29,7 @@ function About() {
           If im not coding im either painting, 3d modeling, playing piano, playing video games, or working out.
         </p>
       <div className = "languages">
-        <h1 className = "title" id="about">Here are some of the tools I use.</h1>
+        <h1 className = "title" id="abouth12" >Here are some of the tools I use.</h1>
         <div className="icons">
           <div className="parent">
             <img className ="child" src={ps} alt="pic"/>

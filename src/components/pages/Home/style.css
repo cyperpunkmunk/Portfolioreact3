@@ -80,3 +80,60 @@
 .box:hover img.hover-img{
     opacity: 1;
 }
+
+@media (max-width: 600px) {
+    .intro{
+        padding-top: 30px;
+    }
+    .title p{
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .imgContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        height: 80%;
+        width: auto;   
+    }
+
+    .imgContainer img{
+        height:33vh;
+        width:auto;
+    }
+
+    .twoIntro{
+        height:10vh;
+        background-color: rgb(255, 255, 255);
+    }
+    
+
+    .linkContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+    }
+
+
+
+
+
+    .box{
+        position: relative;
+        overflow: hidden;
+        margin: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+        
+        height:20px;
+        width:20px;
+        min-width:30px;
+        min-height:30px;
+       
+    }
+
+}

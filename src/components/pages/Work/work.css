@@ -9,12 +9,40 @@
     
 
 }
+#workTitle{
+    font-size: 52px;
+}
+#gman1{
+    font-size: 33px;
+}
+#gman2{
+    font-size: 33px;
+}
+#gman1:hover{
+    font-size: 34px;
+    text-shadow: 0 1px 10px rgba(255, 60, 60, 0.919); 
+    border-radius: 4px;
+    transition: all 0.4s ease-in-out;
+    color:rgba(255, 94, 94, 0.788)
+}
+#gman2:hover{
+    font-size: 34px;
+    text-shadow: 0 1px 10px rgba(255, 44, 244, 0.919); 
+    border-radius: 4px;
+    transition: all 0.4s ease-in-out;
+    color:rgba(194, 62, 255, 0.788)
+}
 .workBody{
     padding-top: 50px;
     background-image: linear-gradient(
         to bottom,
         #f0f0f0cc,
         #636363d0 );
+}
+
+.pDiv{
+    width: 35%;
+    
 }
 
 .work{
@@ -27,10 +55,10 @@
 
 .work-container{
     
-    height: 300px;
-    width: 500px;
+    height: 350px;
+    width: 650px;
     position:relative;
-   
+    border-radius:25px;
 
 }
 
@@ -68,4 +96,24 @@
 
 #stardust{
     color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#travelMent{
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+#workGit{
+    text-decoration: none;
+    color: #c0c0c0d0;
+
+}
+#workGit:hover{
+    text-shadow: 0 1px 10px rgba(255, 255, 255, 0.919); 
+    border-radius: 4px;
+    transition: all 0.4s ease-in-out;
+    color:rgba(255, 255, 255, 0.788)
 }

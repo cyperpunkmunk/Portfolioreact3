@@ -17,13 +17,17 @@
 }
 
 .img{
-    height:400px;
-    width:400px;
+    height:45vh;
+    width:auto;
 }
 .imgContainer{
     display: flex;
+    align-items: center;
     justify-content: center;
     padding: 30px;
+    height: 100%;
+    width: auto;
+    
 }
 
 .twoIntro{

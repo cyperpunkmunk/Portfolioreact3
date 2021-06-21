@@ -24,10 +24,17 @@
     
 
     #con{
-        font-size: 24px;
+        font-size: 21px;
         font-weight: 200;
     }
     .title{
-        font-size: 24px;
+        font-size: 21px;
     }
+    .con{
+        min-height: 100vh; 
+        padding-top: 100px;
+       
+    }
+    
+
 }

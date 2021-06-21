@@ -21,7 +21,7 @@ function Home() {
     <div>
       <div className = "main">
         <div className = "intro">  
-          <h1 className = "title" >Artist, Web Developer & Video Game Designer</h1>
+          <h1 className = "title" id="glow" >Artist, Web Developer & Video Game Designer</h1>
           <p className = "title">
             I create and innovate. Everyday. Reaching unscalable heights
           </p>
